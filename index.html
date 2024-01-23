@@ -16,14 +16,9 @@
 </style>
 <body>
     <a-scene embedded arjs scale="0.7 0.7 0.7">
-
         <a-marker preset="hiro">
-            <!-- <a-entity camera look-controls position="0 2.4 4"></a-entity> -->
-
-            <a-entity id="wrapper" position="0 1.6 0" look-at="[camera]">
-                <a-entity camera look-controls position="0 1.6 5"></a-entity>
-
-                <!--Head-->
+            <a-entity camera look-controls position="0 2.4 4"></a-entity>
+        <!--Head-->
         <a-sphere position="0 3.3 -4" radius="1.25" color="#fce2c4"></a-sphere>
         <!--Goatee-->
         <a-cone position="0 2.5 -3.3" color="#444444" radius-bottom="0.01" radius-top="0.5"></a-cone>
@@ -90,7 +85,6 @@
           color="#00008b"
           rotation="0 0 45"
         ></a-cylinder>
-            </a-entity>
         </a-marker>
     </a-scene>
 </body>
